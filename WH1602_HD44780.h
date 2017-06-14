@@ -1,6 +1,10 @@
- //This define micro controllers port for LCD connection
- //The mode is 4 bits
+#define F_CPU 8000000UL
+#include <util/delay.h>
+#include <stdbool.h>
+#include <stdio.h>
 
+//This define micro controllers port for LCD connection
+ //The mode is 4 bits
 #define LCD_PORT PORTB 
 #define LCD_DDR DDRB
 #define E 1
