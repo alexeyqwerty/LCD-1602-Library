@@ -1,9 +1,4 @@
-#define F_CPU 8000000UL
-
 #include <avr/io.h>
-#include <util/delay.h>
-#include <stdbool.h>
-#include <stdio.h>
 #include "WH1602_HD44780.h"
 
 void lcd_gate_up()
